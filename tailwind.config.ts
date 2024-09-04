@@ -22,6 +22,8 @@ const config: Config = {
       pdMedical: "#056836",
       pdNurse: "#FF4B00",
       pdGray: "rgb(107 114 128)",
+      pdLightGray: "rgb(209 213 219)",
+      pdTranGray: "#ffffff38",
       white: "#FFFFFF",
       black: "#000000",
     },

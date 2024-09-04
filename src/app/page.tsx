@@ -55,6 +55,76 @@ export default function Cart() {
               </span>
               <div className="flex-grow border-t border-pdGray"></div>
             </div>
+            <div className="grid gap-4 text-center md:grid-cols-2 lg:grid-cols-4">
+              <a>
+                <button className="group flex h-auto w-full items-center justify-center rounded-[16px] bg-pdTranGray px-10 py-6 text-2xl font-medium text-white hover:bg-pdLightGray hover:text-pdMedical">
+                  <div className="mr-2 h-5 w-5">
+                    <img
+                      className="group-hover:hidden"
+                      src="https://prioritydispatch.widen.net/content/jkktwako6l/webp/dotnet-pdc-discipline-btns_medical-white.webp?w=30&amp;position=c&amp;color=ffffff00&amp;quality=80&amp;u=7cbckq"
+                      alt="Medical Image"
+                    />
+                    <img
+                      className="hidden group-hover:flex"
+                      src="https://prioritydispatch.widen.net/content/d4pgmmooug/webp/dotnet-pdc-discipline-btns_medical.webp?w=30&amp;position=c&amp;color=ffffff00&amp;quality=80&amp;u=7cbckq"
+                      alt="Medical Icon"
+                    />
+                  </div>
+                  Medical
+                </button>
+              </a>
+              <a>
+                <button className="group flex h-auto w-full items-center justify-center rounded-[16px] bg-pdTranGray px-10 py-6 text-2xl font-medium text-white hover:bg-pdLightGray hover:text-pdRed">
+                  <div className="mr-2 h-5 w-5">
+                    <img
+                      className="group-hover:hidden"
+                      src="https://prioritydispatch.widen.net/content/y1mmnvalnm/webp/dotnet-pdc-discipline-btns_fire-white.webp?w=30&position=c&color=ffffff00&quality=80&u=7cbckq"
+                      alt="Medical Image"
+                    />
+                    <img
+                      className="hidden group-hover:flex"
+                      src="https://prioritydispatch.widen.net/content/1ix62ctibn/webp/dotnet-pdc-discipline-btns_fire.webp?w=30&position=c&color=ffffff00&quality=80&u=7cbckq"
+                      alt="Medical Icon"
+                    />
+                  </div>
+                  Fire
+                </button>
+              </a>
+              <a>
+                <button className="group flex h-auto w-full items-center justify-center rounded-[16px] bg-pdTranGray px-10 py-6 text-2xl font-medium text-white hover:bg-pdLightGray hover:text-pdBlue">
+                  <div className="mr-2 h-5 w-5">
+                    <img
+                      className="group-hover:hidden"
+                      src="https://prioritydispatch.widen.net/content/wwlxbe7duu/webp/dotnet-pdc-discipline-btns_police-white.webp?w=30&position=c&color=ffffff00&quality=80&u=7cbckq"
+                      alt="Medical Image"
+                    />
+                    <img
+                      className="hidden group-hover:flex"
+                      src="https://prioritydispatch.widen.net/content/aeybxk1vot/webp/dotnet-pdc-discipline-btns_police.webp?w=30&position=c&color=ffffff00&quality=80&u=7cbckq"
+                      alt="Medical Icon"
+                    />
+                  </div>
+                  Police
+                </button>
+              </a>
+              <a>
+                <button className="group flex h-auto w-full items-center justify-center rounded-[16px] bg-pdTranGray px-10 py-6 text-2xl font-medium text-white hover:bg-pdLightGray hover:text-pdNurse">
+                  <div className="mr-2 h-5 w-5">
+                    <img
+                      className="group-hover:hidden"
+                      src="https://prioritydispatch.widen.net/content/gi7sjbw3hr/webp/dotnet-pdc-discipline-btns_nurse-white.webp?w=30&position=c&color=ffffff00&quality=80&u=7cbckq"
+                      alt="Medical Image"
+                    />
+                    <img
+                      className="hidden group-hover:flex"
+                      src="https://prioritydispatch.widen.net/content/2krgohugen/webp/dotnet-pdc-discipline-btns_nurse.webp?w=30&position=c&color=ffffff00&quality=80&u=7cbckq"
+                      alt="Medical Icon"
+                    />
+                  </div>
+                  Nurse
+                </button>
+              </a>
+            </div>
           </div>
         </div>
       </div>
